@@ -668,6 +668,7 @@ enum quiche_h3_event_type {
     QUICHE_H3_EVENT_DATAGRAM,
     QUICHE_H3_EVENT_GOAWAY,
     QUICHE_H3_EVENT_RESET,
+    QUICHE_H3_EVENT_PRIORITY_UPDATE,
 };
 
 typedef struct Http3Event quiche_h3_event;
